@@ -1,0 +1,47 @@
+{
+  "nav.features": "Features",
+  "nav.targets": "Targets",
+  "nav.docs": "Docs",
+  "nav.download": "Download",
+  "nav.cta": "Get Started",
+
+  "hero.subtitle": "A visual archive for systemic nostalgia. Build modern classics on vintage hardware.",
+  "hero.btn.download": "Download for Windows",
+  "hero.btn.github": "Github Repository",
+  "hero.meta.status": "[ STATUS: READY ]",
+  "hero.meta.targets": "[ TARGETS: 5 PLATFORMS ]",
+
+  "builder.label": "System Interface",
+  "builder.title": "The Builder",
+  "builder.desc": "A visual IDE designed for the technical purist. Retruxel lets you place and configure game modules on a scene canvas, wire them to hardware events, and compile directly to authentic ROM files — no C required.",
+  "builder.feat1": "Integrated Sprite & Map Editor",
+  "builder.feat2": "Event-Based Module System",
+  "builder.feat3": "One-Click ROM Build & Export",
+
+  "hardware.title": "Compatible Hardware",
+  "hardware.desc": "Native cross-compilation for the most iconic architectures of the golden era.",
+
+  "features.f1.title": "Zero Setup Architecture",
+  "features.f1.desc": "Retruxel ships with SDCC and cc65 toolchains for all supported targets. They are extracted automatically on first build — no manual compiler setup, no environment variables.",
+  "features.f2.title": "Module System",
+  "features.f2.desc": "Drag and drop pre-built modules — physics, input, entities, animation — onto the scene canvas and wire them to hardware events like VBlank and OnStart.",
+  "features.f3.title": "One-Click ROM Export",
+  "features.f3.desc": "Produce hardware-accurate ROM files instantly. Ready for flashcarts or professional distribution.",
+  "features.f4.title": "Ready for Real Hardware",
+  "features.f4.desc": "Retruxel outputs valid ROM files that run on original consoles and flashcarts. The generated C code targets real hardware constraints — VDP limits, scanline budgets, and Z80 or 6502 memory maps.",
+
+  "config.label": "Architecture",
+  "config.title": "Configure Once, Build Anywhere",
+  "config.desc": "Every target in Retruxel ships with its own build profile — ROM size, region timing, emulator path, and launch behavior. Set it once per platform and Retruxel handles the rest at build time.",
+  "config.item1.title": "Modules Compile Per Target",
+  "config.item1.desc": "Each module has a dedicated code generator per platform. The same Physics or Input module produces correct C code for SMS, NES, or Game Gear automatically.",
+  "config.item2.title": "Third-Party Plugin Support",
+  "config.item2.desc": "The Retruxel SDK allows developers to ship custom modules and targets as plugins, extending the tool without modifying the core.",
+
+  "cta.title": "Build the past.",
+  "cta.title.accent": "Better.",
+  "cta.desc": "Join the archive of developers breathing new life into the 8-bit aesthetic through systemic precision.",
+  "cta.btn": "Download Retruxel Now",
+
+  "footer.copy": "© 2026 RETRUXEL ENGINE. SYSTEMIC NOSTALGIA ARCHIVE."
+}

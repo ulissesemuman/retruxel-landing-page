@@ -1,0 +1,47 @@
+{
+  "nav.features": "Recursos",
+  "nav.targets": "Plataformas",
+  "nav.docs": "Docs",
+  "nav.download": "Download",
+  "nav.cta": "Começar",
+
+  "hero.subtitle": "Um arquivo visual para a nostalgia sistêmica. Crie clássicos modernos em hardware vintage.",
+  "hero.btn.download": "Download para Windows",
+  "hero.btn.github": "Repositório no Github",
+  "hero.meta.status": "[ STATUS: PRONTO ]",
+  "hero.meta.targets": "[ ALVOS: 5 PLATAFORMAS ]",
+
+  "builder.label": "Interface do Sistema",
+  "builder.title": "O Builder",
+  "builder.desc": "Uma IDE visual projetada para o purista técnico. O Retruxel permite posicionar e configurar módulos de jogo em um canvas de cena, conectá-los a eventos de hardware e compilar diretamente para arquivos ROM autênticos — sem C.",
+  "builder.feat1": "Editor Integrado de Sprites e Mapas",
+  "builder.feat2": "Sistema de Módulos Baseado em Eventos",
+  "builder.feat3": "Build e Exportação de ROM com Um Clique",
+
+  "hardware.title": "Hardware Compatível",
+  "hardware.desc": "Cross-compilação nativa para as arquiteturas mais icônicas da era de ouro.",
+
+  "features.f1.title": "Arquitetura Zero Configuração",
+  "features.f1.desc": "O Retruxel vem com as toolchains SDCC e cc65 para todos os alvos suportados. Elas são extraídas automaticamente no primeiro build — sem configuração manual de compilador, sem variáveis de ambiente.",
+  "features.f2.title": "Sistema de Módulos",
+  "features.f2.desc": "Arraste e solte módulos prontos — física, input, entidades, animação — no canvas da cena e conecte-os a eventos de hardware como VBlank e OnStart.",
+  "features.f3.title": "Exportação de ROM com Um Clique",
+  "features.f3.desc": "Gere arquivos ROM com precisão de hardware instantaneamente. Prontos para flashcarts ou distribuição profissional.",
+  "features.f4.title": "Pronto para Hardware Real",
+  "features.f4.desc": "O Retruxel gera arquivos ROM válidos que rodam em consoles originais e flashcarts. O código C gerado respeita as restrições reais do hardware — limites de VDP, orçamentos de scanline e mapas de memória Z80 ou 6502.",
+
+  "config.label": "Arquitetura",
+  "config.title": "Configure Uma Vez, Compile em Qualquer Lugar",
+  "config.desc": "Cada alvo no Retruxel vem com seu próprio perfil de build — tamanho de ROM, timing de região, caminho do emulador e comportamento de execução. Configure uma vez por plataforma e o Retruxel cuida do resto no momento do build.",
+  "config.item1.title": "Módulos Compilam por Alvo",
+  "config.item1.desc": "Cada módulo tem um gerador de código dedicado por plataforma. O mesmo módulo de Física ou Input gera código C correto para SMS, NES ou Game Gear automaticamente.",
+  "config.item2.title": "Suporte a Plugins de Terceiros",
+  "config.item2.desc": "O SDK do Retruxel permite que desenvolvedores distribuam módulos e alvos personalizados como plugins, estendendo a ferramenta sem modificar o núcleo.",
+
+  "cta.title": "Construa o passado.",
+  "cta.title.accent": "Melhor.",
+  "cta.desc": "Junte-se ao arquivo de desenvolvedores que dão nova vida à estética 8-bit com precisão sistêmica.",
+  "cta.btn": "Baixar o Retruxel Agora",
+
+  "footer.copy": "© 2026 RETRUXEL ENGINE. ARQUIVO DE NOSTALGIA SISTÊMICA."
+}
