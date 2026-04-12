@@ -66,7 +66,7 @@
     <!-- THE BUILDER -->
     <section class="section section-low">
       <div class="container two-col">
-        <div class="col-text">
+        <div class="col-text reveal reveal-left">
           <span class="label label-tertiary">System Interface</span>
           <h2 class="section-title">The Builder</h2>
           <p class="section-desc">A visual IDE designed for the technical purist. Retruxel lets you place and configure game modules on a scene canvas, wire them to hardware events, and compile directly to authentic ROM files — no C required.</p>
@@ -91,7 +91,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-media">
+        <div class="col-media reveal reveal-right">
           <div class="media-frame">
             <div class="crt-scanline"></div>
             <a href="#builder-zoom">
@@ -111,32 +111,32 @@
     <!-- HARDWARE GRID -->
     <section id="targets" class="section">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header reveal">
           <h2 class="section-title">Compatible Hardware</h2>
           <p class="section-desc center">Native cross-compilation for the most iconic architectures of the golden era.</p>
         </div>
         <div class="hardware-grid">
-          <div class="hardware-card card-primary">
+          <div class="hardware-card card-primary reveal-scan" style="--scan-delay:0ms">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="5" x2="6" y2="19"/><line x1="18" y1="5" x2="18" y2="19"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
             <span class="hw-name">NES</span>
             <span class="hw-chip">Ricoh 2A03</span>
           </div>
-          <div class="hardware-card card-secondary">
+          <div class="hardware-card card-secondary reveal-scan" style="--scan-delay:100ms">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
             <span class="hw-name">Master System</span>
             <span class="hw-chip">Zilog Z80</span>
           </div>
-          <div class="hardware-card card-tertiary">
+          <div class="hardware-card card-tertiary reveal-scan" style="--scan-delay:200ms">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><line x1="6" y1="8" x2="6" y2="8"/><line x1="18" y1="8" x2="18" y2="8"/><line x1="12" y1="2" x2="12" y2="12"/><path d="M8 12v5a4 4 0 0 0 8 0v-5"/></svg>
             <span class="hw-name">Game Gear</span>
             <span class="hw-chip">Portable Bus</span>
           </div>
-          <div class="hardware-card card-error">
+          <div class="hardware-card card-error reveal-scan" style="--scan-delay:300ms">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
             <span class="hw-name">SG-1000</span>
             <span class="hw-chip">Zilog Z80</span>
           </div>
-          <div class="hardware-card card-primary">
+          <div class="hardware-card card-primary reveal-scan" style="--scan-delay:400ms">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/></svg>
             <span class="hw-name">ColecoVision</span>
             <span class="hw-chip">Zilog Z80</span>
@@ -149,22 +149,22 @@
     <section id="features" class="section section-low">
       <div class="container">
         <div class="features-grid">
-          <div class="feature-card feature-large border-primary">
+          <div class="feature-card feature-large border-primary reveal-flicker" style="--flicker-delay:0ms">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-primary"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
             <h3>Zero Setup Architecture</h3>
             <p>Retruxel ships with SDCC and cc65 toolchains for all supported targets. They are extracted automatically on first build — no manual compiler setup, no environment variables.</p>
           </div>
-          <div class="feature-card">
+          <div class="feature-card reveal-flicker" style="--flicker-delay:150ms">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-tertiary"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
             <h3>Module System</h3>
             <p>Drag and drop pre-built modules — physics, input, entities, animation — onto the scene canvas and wire them to hardware events like VBlank and OnStart.</p>
           </div>
-          <div class="feature-card">
+          <div class="feature-card reveal-flicker" style="--flicker-delay:300ms">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-secondary"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg>
             <h3>One-Click ROM Export</h3>
             <p>Produce hardware-accurate ROM files instantly. Ready for flashcarts or professional distribution.</p>
           </div>
-          <div class="feature-card feature-large feature-accent">
+          <div class="feature-card feature-large feature-accent reveal-flicker" style="--flicker-delay:450ms">
             <h3>Ready for Real Hardware</h3>
             <p>Retruxel outputs valid ROM files that run on original consoles and flashcarts. The generated C code targets real hardware constraints — VDP limits, scanline budgets, and Z80 or 6502 memory maps.</p>
           </div>
@@ -175,7 +175,7 @@
     <!-- GRANULAR CONFIG -->
     <section class="section">
       <div class="container two-col reverse">
-        <div class="col-media">
+        <div class="col-media reveal reveal-left">
           <div class="media-frame">
             <div class="crt-scanline"></div>
             <a href="#targets-zoom">
@@ -189,7 +189,7 @@
           <a href="#targets-zoom-close" class="img-zoom-close"></a>
           <img src="./img/targets.png" alt="Granular Configuration" />
         </div>
-        <div class="col-text">
+        <div class="col-text reveal reveal-right">
           <span class="label label-secondary">Architecture</span>
           <h2 class="section-title">Configure Once, Build Anywhere</h2>
           <p class="section-desc">Every target in Retruxel ships with its own build profile — ROM size, region timing, emulator path, and launch behavior. Set it once per platform and Retruxel handles the rest at build time.</p>
@@ -220,7 +220,7 @@
     <!-- FINAL CTA -->
     <section id="download" class="cta-section">
       <div class="grid-bg"></div>
-      <div class="cta-content">
+      <div class="cta-content reveal">
         <h2 class="cta-title">Build the past. <br /><span class="text-primary">Better.</span></h2>
         <p class="cta-desc">Join the archive of developers breathing new life into the 8-bit aesthetic through systemic precision.</p>
         <a href="https://github.com/ulissesemuman/Retruxel/releases/download/v0.7.0-alpha/Retruxel-0.7.0-alpha-setup.exe" class="btn-action btn-action-xl download-link">
@@ -246,15 +246,28 @@
         <div class="footer-col">
           <a href="https://github.com/ulissesemuman/Retruxel/releases">Changelog</a>
           <a href="https://github.com/ulissesemuman/Retruxel">Github</a>
-          <a href="#">Discord</a>
+          <a href="https://discord.gg/xWb457VSz6">Discord</a>
         </div>
         <div class="footer-col">
-          <a href="#">Reddit</a>
+          <a href="https://www.reddit.com/r/retruxel/">Reddit</a>
           <a href="#">Terms</a>
         </div>
       </div>
     </div>
   </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal, .reveal-scan, .reveal-flicker').forEach(el => observer.observe(el));
+  </script>
 
   <script>
     // Fetch latest version from GitHub
