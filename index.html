@@ -1,6 +1,321 @@
-<html>
-    <body>
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple HTML page.</p>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retruxel — Build the Past. Better.</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo-group">
+      <img src="./img/logochip.png" alt="" class="nav-logo-chip"/>
+      <img src="./img/retruxel.png" alt="Retruxel" class="nav-logo-text"/>
+    </div>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#targets">Targets</a>
+      <a href="#docs">Docs</a>
+      <a href="#download">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download
+      </a>
+    </div>
+    <button class="btn-primary nav-cta">Get Started</button>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="grid-bg"></div>
+      <div class="hero-content">
+        <img src="./img/logochip.png" alt="Retruxel" class="hero-logo"/>
+        <img src="./img/retruxel.png" alt="Retruxel" class="hero-title"/>
+        <p class="hero-subtitle">A visual archive for systemic nostalgia. Build modern classics on vintage hardware.</p>
+        <div class="hero-actions">
+          <a href="#download" class="btn-action download-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download for Windows
+          </a>
+          <a href="https://github.com/ulissesemuman/Retruxel" class="btn-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            Github Repository
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span id="version-display">[ CORE: V0.6.0-ALPHA ]</span>
+          <span>[ STATUS: READY ]</span>
+          <span>[ TARGETS: 5 PLATFORMS ]</span>
+        </div>
+      </div>
+      <div class="hero-fade"></div>
+      <div class="scroll-hint">
+        <svg viewBox="0 0 24 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="22" height="36" rx="11" stroke="var(--primary)" stroke-width="1.5"/>
+          <rect class="scroll-wheel" x="10.25" y="7" width="3.5" height="7" rx="1.75" fill="var(--primary)"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- THE BUILDER -->
+    <section class="section section-low">
+      <div class="container two-col">
+        <div class="col-text">
+          <span class="label label-tertiary">System Interface</span>
+          <h2 class="section-title">The Builder</h2>
+          <p class="section-desc">A visual IDE designed for the technical purist. Retruxel lets you place and configure game modules on a scene canvas, wire them to hardware events, and compile directly to authentic ROM files — no C required.</p>
+          <ul class="feature-list">
+            <li>
+              <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              </div>
+              <span>Integrated Sprite & Map Editor</span>
+            </li>
+            <li>
+              <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><line x1="6" y1="9" x2="6" y2="21"/></svg>
+              </div>
+              <span>Event-Based Module System</span>
+            </li>
+            <li>
+              <div class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="2" x2="9" y2="4"/><line x1="15" y1="2" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="22"/><line x1="15" y1="20" x2="15" y2="22"/><line x1="20" y1="9" x2="22" y2="9"/><line x1="20" y1="14" x2="22" y2="14"/><line x1="2" y1="9" x2="4" y2="9"/><line x1="2" y1="14" x2="4" y2="14"/></svg>
+              </div>
+              <span>One-Click ROM Build &amp; Export</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-media">
+          <div class="media-frame">
+            <div class="crt-scanline"></div>
+            <a href="#builder-zoom">
+              <img src="./img/builder.png" alt="Retruxel Builder Interface" class="media-img grayscale" />
+            </a>
+          </div>
+          <div class="media-accent"></div>
+        </div>
+
+        <div id="builder-zoom" class="img-zoom-overlay">
+          <a href="#builder-zoom-close" class="img-zoom-close"></a>
+          <img src="./img/builder.png" alt="Retruxel Builder Interface" />
+        </div>
+      </div>
+    </section>
+
+    <!-- HARDWARE GRID -->
+    <section id="targets" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Compatible Hardware</h2>
+          <p class="section-desc center">Native cross-compilation for the most iconic architectures of the golden era.</p>
+        </div>
+        <div class="hardware-grid">
+          <div class="hardware-card card-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="5" x2="6" y2="19"/><line x1="18" y1="5" x2="18" y2="19"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+            <span class="hw-name">NES</span>
+            <span class="hw-chip">Ricoh 2A03</span>
+          </div>
+          <div class="hardware-card card-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <span class="hw-name">Master System</span>
+            <span class="hw-chip">Zilog Z80</span>
+          </div>
+          <div class="hardware-card card-tertiary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><line x1="6" y1="8" x2="6" y2="8"/><line x1="18" y1="8" x2="18" y2="8"/><line x1="12" y1="2" x2="12" y2="12"/><path d="M8 12v5a4 4 0 0 0 8 0v-5"/></svg>
+            <span class="hw-name">Game Gear</span>
+            <span class="hw-chip">Portable Bus</span>
+          </div>
+          <div class="hardware-card card-error">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            <span class="hw-name">SG-1000</span>
+            <span class="hw-chip">Zilog Z80</span>
+          </div>
+          <div class="hardware-card card-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/></svg>
+            <span class="hw-name">ColecoVision</span>
+            <span class="hw-chip">Zilog Z80</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section section-low">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card feature-large border-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-primary"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            <h3>Zero Setup Architecture</h3>
+            <p>Retruxel ships with SDCC and cc65 toolchains for all supported targets. They are extracted automatically on first build — no manual compiler setup, no environment variables.</p>
+          </div>
+          <div class="feature-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-tertiary"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            <h3>Module System</h3>
+            <p>Drag and drop pre-built modules — physics, input, entities, animation — onto the scene canvas and wire them to hardware events like VBlank and OnStart.</p>
+          </div>
+          <div class="feature-card">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-secondary"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg>
+            <h3>One-Click ROM Export</h3>
+            <p>Produce hardware-accurate ROM files instantly. Ready for flashcarts or professional distribution.</p>
+          </div>
+          <div class="feature-card feature-large feature-accent">
+            <h3>Ready for Real Hardware</h3>
+            <p>Retruxel outputs valid ROM files that run on original consoles and flashcarts. The generated C code targets real hardware constraints — VDP limits, scanline budgets, and Z80 or 6502 memory maps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRANULAR CONFIG -->
+    <section class="section">
+      <div class="container two-col reverse">
+        <div class="col-media">
+          <div class="media-frame">
+            <div class="crt-scanline"></div>
+            <a href="#targets-zoom">
+              <img src="./img/targets.png" alt="Granular Configuration" class="media-img grayscale dim" />
+            </a>
+            <div class="media-border"></div>
+          </div>
+        </div>
+
+        <div id="targets-zoom" class="img-zoom-overlay">
+          <a href="#targets-zoom-close" class="img-zoom-close"></a>
+          <img src="./img/targets.png" alt="Granular Configuration" />
+        </div>
+        <div class="col-text">
+          <span class="label label-secondary">Architecture</span>
+          <h2 class="section-title">Configure Once, Build Anywhere</h2>
+          <p class="section-desc">Every target in Retruxel ships with its own build profile — ROM size, region timing, emulator path, and launch behavior. Set it once per platform and Retruxel handles the rest at build time.</p>
+          <div class="config-items">
+            <div class="config-item border-secondary">
+              <div class="config-icon icon-bg-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <div>
+                <h4>Modules Compile Per Target</h4>
+                <p>Each module has a dedicated code generator per platform. The same Physics or Input module produces correct C code for SMS, NES, or Game Gear automatically.</p>
+              </div>
+            </div>
+            <div class="config-item border-tertiary">
+              <div class="config-icon icon-bg-tertiary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+              </div>
+              <div>
+                <h4>Third-Party Plugin Support</h4>
+                <p>The Retruxel SDK allows developers to ship custom modules and targets as plugins, extending the tool without modifying the core.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="download" class="cta-section">
+      <div class="grid-bg"></div>
+      <div class="cta-content">
+        <h2 class="cta-title">Build the past. <br /><span class="text-primary">Better.</span></h2>
+        <p class="cta-desc">Join the archive of developers breathing new life into the 8-bit aesthetic through systemic precision.</p>
+        <a href="https://github.com/ulissesemuman/Retruxel/releases/download/v0.7.0-alpha/Retruxel-0.7.0-alpha-setup.exe" class="btn-action btn-action-xl download-link">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Retruxel Now
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+          <div class="footer-logo-group">
+            <img src="./img/logochip.png" alt="" class="footer-logo-chip"/>
+            <img src="./img/retruxel.png" alt="Retruxel" class="footer-logo-text"/>
+          </div>
+        <p class="footer-copy">© 2026 RETRUXEL ENGINE. SYSTEMIC NOSTALGIA ARCHIVE.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <a href="https://github.com/ulissesemuman/Retruxel/releases">Changelog</a>
+          <a href="https://github.com/ulissesemuman/Retruxel">Github</a>
+          <a href="#">Discord</a>
+        </div>
+        <div class="footer-col">
+          <a href="#">Reddit</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Fetch latest version from GitHub
+    const REPO = 'ulissesemuman/Retruxel';
+    
+    async function updateVersion() {
+      try {
+        const response = await fetch(`https://api.github.com/repos/${REPO}/releases/latest`);
+        
+        if (response.ok) {
+          const data = await response.json();
+          const versionSpan = document.getElementById('version-display');
+          
+          if (versionSpan && data.tag_name) {
+            versionSpan.textContent = `[ CORE: ${data.tag_name.toUpperCase()} ]`;
+          }
+        } else {
+          // Se não houver releases, tenta buscar a última tag
+          const tagsResponse = await fetch(`https://api.github.com/repos/${REPO}/tags`);
+          if (tagsResponse.ok) {
+            const tags = await tagsResponse.json();
+            if (tags.length > 0) {
+              const versionSpan = document.getElementById('version-display');
+              versionSpan.textContent = `[ CORE: ${tags[0].name.toUpperCase()} ]`;
+            }
+          }
+        }
+      } catch (error) {
+        console.warn('Could not fetch version from GitHub:', error);
+        // Mantém a versão hardcoded (v0.6.0-alpha) como fallback
+      }
+    }
+    
+    // Executar quando a página carregar
+    document.addEventListener('DOMContentLoaded', updateVersion);
+  </script>
+
+  <script>
+    const FALLBACK = 'https://github.com/ulissesemuman/Retruxel/releases/download/v0.7.1-alpha/Retruxel-0.7.1-alpha-setup.exe';
+    const CACHE_KEY = 'retruxel_download_v2';
+    const CACHE_TTL = 2 * 60 * 60 * 1000;
+
+    async function getDownloadUrl() {
+      const cached = JSON.parse(localStorage.getItem(CACHE_KEY) || 'null');
+      if (cached && Date.now() - cached.ts < CACHE_TTL) return cached.url;
+
+      try {
+        const res = await fetch('https://api.github.com/repos/ulissesemuman/Retruxel/releases/latest');
+        const data = await res.json();
+        const asset = data.assets?.find(a => a.name.endsWith('.exe'));
+        const url = asset?.browser_download_url || FALLBACK;
+        localStorage.setItem(CACHE_KEY, JSON.stringify({ url, ts: Date.now() }));
+        return url;
+      } catch {
+        return FALLBACK;
+      }
+    }
+
+    getDownloadUrl().then(url => {
+      document.querySelectorAll('.download-link').forEach(el => el.href = url);
+    });
+  </script>
+</body>
 </html>
