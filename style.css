@@ -297,9 +297,9 @@ img { display: block; max-width: 100%; }
   .nav-links { display: none; }
   .nav-logo-chip { height: 1.33rem; width: auto; max-width: none; }
   .nav-logo-text { height: 0.67rem; width: auto; max-width: none; }
-  .hero-logo { max-width: none; width: 40vw; margin-top: calc(1.25rem * 2 / 3 * 2); }
+  .hero-logo { max-width: none; width: 40vw; margin-top: calc(1.25rem * 2 / 3 * 2 + 1.25rem * 0.5); }
   .hero-title { max-width: none; width: 70vw; }
-  .scroll-hint { bottom: calc(2rem + 1.25rem * 1.25 + env(safe-area-inset-bottom, 0px)); }
+  .scroll-hint { bottom: calc(2rem + 1.25rem * 1.75 + env(safe-area-inset-bottom, 0px)); }
   .scroll-hint .icon-mouse { display: none; }
   .scroll-hint .icon-finger { display: block; }
   .hero-actions { flex-direction: column; align-items: stretch; }
