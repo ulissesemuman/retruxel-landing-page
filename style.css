@@ -295,6 +295,8 @@ img { display: block; max-width: 100%; }
   .nav-links { display: none; }
   .nav-logo-chip { height: 1.33rem; width: auto; max-width: none; }
   .nav-logo-text { height: 0.67rem; width: auto; max-width: none; }
+  .hero-logo { max-width: 40vw; }
+  .hero-title { max-width: 70vw; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .btn-action, .btn-secondary { justify-content: center; }
   .btn-action-xl { padding: 1.5rem 2rem; font-size: 1.25rem; }
