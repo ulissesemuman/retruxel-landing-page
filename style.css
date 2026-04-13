@@ -114,6 +114,8 @@ img { display: block; max-width: 100%; }
   animation: bounce 2s ease-in-out infinite;
 }
 .scroll-hint svg { width: 1.5rem; height: auto; }
+.scroll-hint .icon-mouse { display: block; }
+.scroll-hint .icon-finger { display: none; }
 .scroll-wheel { animation: scroll-wheel 2s ease-in-out infinite; }
 @keyframes bounce {
   0%, 100% { transform: translateX(-50%) translateY(0); }
@@ -295,8 +297,11 @@ img { display: block; max-width: 100%; }
   .nav-links { display: none; }
   .nav-logo-chip { height: 1.33rem; width: auto; max-width: none; }
   .nav-logo-text { height: 0.67rem; width: auto; max-width: none; }
-  .hero-logo { max-width: none; width: 40vw; }
+  .hero-logo { max-width: none; width: 40vw; margin-top: calc(1.25rem * 2 / 3 * 2); }
   .hero-title { max-width: none; width: 70vw; }
+  .scroll-hint { bottom: calc(2rem + env(safe-area-inset-bottom, 0px)); }
+  .scroll-hint .icon-mouse { display: none; }
+  .scroll-hint .icon-finger { display: block; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .btn-action, .btn-secondary { justify-content: center; }
   .btn-action-xl { padding: 1.5rem 2rem; font-size: 1.25rem; }
